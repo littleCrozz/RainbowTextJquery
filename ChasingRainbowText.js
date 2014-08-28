@@ -133,7 +133,7 @@ var rgbcount = 0;
     };
 
 
-    $.fn.ChasingRainbow = function () {
+    $.fn.chasingRainbow = function () {
         var method = arguments[0];
 
         if (methods[method]) {

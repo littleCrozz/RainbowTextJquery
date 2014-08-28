@@ -120,7 +120,7 @@ var rgbcount = 0;
             // Repeat over each element in selector
             return $(this).each(function () {
                 var $this = $(this);
-                if($this.hasData("interval")){
+                if($this.data("interval")){
                 clearInterval($this.data("interval"));
                 $this.removeData("interval");
             }
